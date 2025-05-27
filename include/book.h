@@ -12,7 +12,9 @@ typedef struct {
 } Book;
 
 int add_book(Book book);
+
 int read_books(Book **books, int *count);
+
 int update_book_copies(int book_id, int change);
 
 #endif
